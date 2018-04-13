@@ -1,0 +1,43 @@
+/*Mobile first. Primero hacerlo pensado en moviles sin constantes en el eje X*/
+header{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #7a0d0d;
+    height: 180px;
+}
+main{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+article{
+    display: inline-block;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.abajito{
+    text-align: justify;
+}
+div{
+    box-sizing: border-box;
+}
+.imagencat{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;/*Pa que se muevan se DEBE cambiar el tipo de posicón*/
+    margin: 0 auto;
+
+}
+p{
+    box-sizing: border-box;
+}
+footer{
+    box-sizing: border-box;
+    background-color: #7a0d0d;
+}
+.copyright{
+    color: white;
+}
+
